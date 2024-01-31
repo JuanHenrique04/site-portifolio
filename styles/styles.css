@@ -1,0 +1,25 @@
+@import url(./reset.css);
+@import url(./navigation.css);
+
+:root {
+    --background-color: #0D1117;
+    --braco: #FFF;
+    --font-title: 'Pixelify Sans', sans-serif;
+    --font-text: 'Poppins', sans-serif;
+    --neon-effect:       0 0 7px #fff,
+    0 0 21px #e9bdfc,
+    0 0 21px #d471ff,
+    0 0 21px #c43bff,
+    0 0 21px #b300ff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 900vh;
+    background-color: var(--background-color);
+    font-size: 1rem;
+    font-family: var(--font-text);
+}

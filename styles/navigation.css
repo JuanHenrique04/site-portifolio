@@ -1,0 +1,77 @@
+nav.lateral-menu {
+    /* width: 14%; */
+    width: 3.5%;
+    height: 100%;
+    background-color: black;
+    padding: 2em 0 2em 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+nav.lateral-menu:hover {
+        width: 14%;
+        height: 100%;
+        background-color: black;
+        padding: 2em 0 2em 1em;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: 0.5s;
+        overflow: hidden;
+}
+
+.lateral-menu:hover {
+    box-shadow: var(--neon-effect);
+}
+
+.btn-expand {
+    padding: 0 4%;
+}
+
+.btn-expand > i {
+    cursor: pointer;
+}
+
+.btn-expand,
+.icon-list {
+    font-size: 2em;
+}
+
+.option-list {
+    padding: 4em 4%;
+}
+
+.list-items__link {
+    display: flex;
+    text-decoration: none;
+    color: var(--braco);
+    font-weight: 500;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 3em;
+}
+
+.menu {
+    color: var(--braco);
+}
+
+.menu:hover,
+.list-items__link:hover {
+    text-shadow: var(--neon-effect)
+}
+.menu,
+.list-items__link {
+    transition: 0.5s;
+}
+
+/* .txt-link {
+    position: absolute;
+    z-index: 1;
+} */
+
+/* .icon-list {
+} */
